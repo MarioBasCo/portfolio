@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Basilio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+
+    <script defer src="js/app.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 class="h1">
+            <a href="#" class="brand">Mario <span>Basilio</span></a>
+        </h1>
+
+        <button class="button">
+            <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+        </button>
+
+        <nav class="nav">
+            <ul class="ul" onclick="link()">
+                <li class="li"><a href="#" class="a">Home</a></li>
+                <li class="li"><a href="#about" class="a">About me</a></li>
+                <li class="li"><a href="#portfolio" class="a">Portfolio</a></li>
+                <li class="li"><a href="#contact" class="a">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <span class="welcome" lang="eu" translate="no">Hi, Welcome</span>
+        <h1 class="myname"><span>I'm</span> Mario Basilio</h1>
+        <a id="download-cv-btn" href="#">
+            <span>Download CV</span><i></i>
+        </a>
+    </section>
+
+    <section id="about" class="about">
+        <article id="about-me">
+            <div class="content-about-img">
+                <img src="img/mariobasco.png" alt="Mario Basilio">
+            </div>
+            <div class="about-info">
+                <p class="about-title">About me</p>
+                <h2>Hi, I'm <span>Mario Basilio</span> </h2>
+                <h3 lang="eu" translate="no">Angular/Ionic Developer</h3>
+                <p>
+                    I am an Information Technology Engineer, with the aim of contributing to the professional field my
+                    skills and my competence in the development of applications in web and mobile environments, I like
+                    to
+                    undertake new things, I can collaborate in a group or independently.
+                </p>
+            </div>
+        </article>
+
+
+        <article>
+            <h2 class="myskills">My Skills</h2>
+            <div class="wrapper-grid">
+
+                <div class="card-skill">
+                    <div class="container">
+                        <h3 class="name" lang="eu" translate="no">Fronted</h1>
+                            <div class="tools-skill">
+                                <div>
+                                    <ion-icon name="logo-html5" id="icon-skill" class="html-icon"></ion-icon>
+                                    <span>HTML</span>
+                                </div>
+                                <div>
+                                    <ion-icon name="logo-css3" id="icon-skill" class="css-icon"></ion-icon>
+                                    <span>CSS</span>
+                                </div>
+                                <div><i class="fa-brands fa-js js-icon" id="icon-skill"></i><span>Javascript</span>
+                                </div>
+                                <div>
+                                    <ion-icon name="logo-angular" id="icon-skill" class="angular-icon"></ion-icon>
+                                    <span>Angular</span>
+                                </div>
+                                <div>
+                                    <ion-icon name="logo-ionic" id="icon-skill" class="ionic-icon"></ion-icon>
+                                    <span>Ionic</span>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="card-skill">
+                    <div class="container">
+                        <h3 class="name" lang="eu" translate="no">Backend</h1>
+                            <div class="tools-skill">
+                                <div>
+                                    <ion-icon name="logo-nodejs" id="icon-skill" class="node-icon"></ion-icon>
+                                    <span>NodeJs
+                                        And
+                                        Express</span>
+                                </div>
+                                <div><i class="fa-solid fa-database mysql-icon" id="icon-skill"></i></ion-icon>
+                                    <span>MySql</span>
+                                </div>
+                                <div><i class="fa-brands fa-php php-icon" id="icon-skill"></i></i><span>PHP</span></div>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="card-skill">
+                    <div class="container">
+                        <h3 class="name">Others</h1>
+                            <div class="tools-skill">
+                                <div><i class="fa-solid fa-bug" id="icon-skill"></i><span>Ethical Hacking</span></div>
+                                <div><i class="fa-regular fa-image" id="icon-skill"></i><span>Photoshop</span></div>
+                                <div><i class="fa-solid fa-share-nodes" id="icon-skill"></i><span>Community
+                                        Manager</span>
+                                </div>
+                                <div><i class="fa-solid fa-screwdriver-wrench" id="icon-skill"></i><span>Technical
+                                        Support</span></div>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h1 class="portfolio-title">Projects</h1>
+        <div class="projects">
+            <div class="card-holder">
+                <div class="card">
+                    <div class="card__img">
+                        <img src="img/test-result.svg">
+                    </div>
+
+                    <div class="card-contents">
+                        <h1 class="card__name" lang="eu" translate="no">QuizzFHR</h1>
+
+                        <p>
+                            Web and mobile application of questions and answers, with the teacher user as the
+                            application administrator and the student user who answers the questionnaires created by the
+                            teacher, hybrid development is used to build the web application and generate the apk.
+
+                            <span class="card__read-more"><strong>Technologies used: </strong>NodeJS, Angular in
+                                conjunction with Ionic, Express, MySQL, Sequelize, Heroku.</span>
+                        </p>
+
+                        <p class="read-more-btn">Read More...</p>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="/img/medical-app.svg">
+                    </div>
+
+                    <div class="card-contents">
+                        <h1 class="card__name" lang="eu" translate="no">Inmunolab App</h1>
+
+                        <p>
+                            It is an application for a laboratory, its main function is to collect and save data from an
+                            iot device that provides the height and heart rate of a patient via Bluetooth.
+
+                            <span class="card__read-more"><strong>Technologies used: </strong>NodeJS, Angular, Ionic,
+                                Android, PHP with FatFree, MySQL, 000webhost.</span>
+                        </p>
+
+                        <p class="read-more-btn">Read More...</p>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="img/app_vu.svg">
+                    </div>
+
+                    <div class="card-contents">
+                        <h1 class="card__name" lang="eu" translate="no">VU SYSDON</h1>
+
+                        <p>
+                            It is a web system for the management and automation of the donation collection process of
+                            the Vecinos Unidos association, its purpose is to support the main activity carried out by
+                            the assistants of the Asociación Vecinos Unidos, it offers quick results and the preparation
+                            of reports, among which the infographics.
+
+                            <span class="card__read-more"><strong>Technologies used: </strong>NodeJS, Angular,
+                                Bootstrap, Express, MySQL.</span>
+                        </p>
+
+                        <p class="read-more-btn">Read More...</p>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="img/buy-cell.svg">
+                    </div>
+
+                    <div class="card-contents">
+                        <h1 class="card__name" lang="eu" translate="no">Isabel MiniStore</h1>
+
+                        <p>
+                            End-of-course project to manage sales, has two users, the client who views the products,
+                            which can be purchased, and the administrator who manages the orders, approving or rejecting
+                            them, also feeds the merchandise information app, the one for payment was considered the
+                            counter delivery.
+
+                            <span class="card__read-more"><strong>Technologies used: </strong>NodeJS, Angular, Ionic,
+                                PHP with FatFree, MySQL.</span>
+                        </p>
+
+                        <p class="read-more-btn">Read More...</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="txt-video">See more here...</p>
+        <div class="video-projects">
+            <div class="video-demo">
+                <iframe width="560" height="415" src="https://www.youtube-nocookie.com/embed/UMRkJyJiqYo"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <figure class="contact__figure">
+            <img src="./img/contact.svg" class="contact__img">
+        </figure>
+
+        <div class="contact-main">
+            <h2 class="contact-main__title">Send me a message...</h2>
+
+            <form class="contact-form">
+                <input type="text" placeholder="Enter a subject" class="contact-form__input" id="subject" required>
+
+                <textarea placeholder="Enter a message" class="contact-form__input" id="message" required></textarea>
+
+                <input type="button" value="Send Message" class="contact-form__input contact-form__input--send"
+                    onclick="sendMail()">
+
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h2 class="copyright">Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script>, Mario Basilio
+            </h2>
+            <div class="social-networks">
+                <a href="https://www.linkedin.com/in/mario-basilio-cochea-57443b222/" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/MarioBasCo" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/mariobas3" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/mariobasilio1/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
